@@ -1,0 +1,103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "seacr should be successful",
+        "description": "",
+        "id": "search-box;seacr-should-be-successful;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11115915600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the browser",
+            "match": {
+              "location": "All_Steps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2811119400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass the url \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "All_Steps.pass_the_url(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500941700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "send the search keyword",
+            "match": {
+              "location": "All_Steps.send_the_search_keyword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3649423900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "searc should be appeared",
+            "match": {
+              "location": "All_Steps.searc_should_be_appeared()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 907909700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "All_Steps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@abc"
+          }
+        ]
+      }
+    ],
+    "name": "search box",
+    "description": "",
+    "id": "search-box",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@abc"
+      }
+    ]
+  }
+]
